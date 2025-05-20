@@ -1,0 +1,11 @@
+fastapi>=0.100.0
+uvicorn>=0.20.0
+# spacy>=3.0.0 # Removed spaCy
+# spacy[standard]
+wikipedia>=1.4.0
+pydantic>=2.0.0
+pydantic>=2.0.0
+PyMuPDF>=1.20.0 # For PDF parsing
+hanlp>=2.1.1 # For Chinese NLP (replaces spaCy for NER)
+# Add specific spaCy model if needed (or download separately)
+# en_core_web_sm>=3.0.0 
