@@ -18,7 +18,7 @@ export default defineConfig({
     },
   },
   server: {
-    host: 'localhost', // 或者 '0.0.0.0' 如果你想让局域网内其他设备访问
+    host: 'localhost', // 或者 'localhost' 如果你想让局域网内其他设备访问
     port: 5173,       // 确认这是你前端运行的端口
 
     // 配置代理规则
