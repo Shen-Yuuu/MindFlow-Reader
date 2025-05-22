@@ -165,10 +165,6 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 
 后端服务通常会运行在 `http://localhost:8000`。
 
-## `.gitignore` 配置
-
-重要：`node_modules/` 目录 (前端依赖) 和 Python 虚拟环境目录 (如 `pyenv/`) 已被添加到 `.gitignore`，因此这些文件夹中的内容不会被提交到远程 Git 仓库。这是标准做法，以避免仓库臃肿，并确保每位协作者都在其本地环境中自行安装和管理这些依赖。
-
 ## 其他配置
 
 - **TypeScript 支持:** 前端项目通过 `vue-tsc` (`npm run build` 的一部分) 进行类型检查。详情请参阅 `tsconfig.json` 和 `tsconfig.app.json`。
